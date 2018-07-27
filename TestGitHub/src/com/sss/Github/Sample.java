@@ -7,7 +7,14 @@ public class Sample {
 		System.out.println("i value is===="+i);
 	}
 public static void main(String[] args) {
+<<<<<<< HEAD
 	Sample s= new Sample();
 	s.Test();
+=======
+	int a[]={1,2,4,6,10};
+	for(int i=0;i<a.length;i++){
+		System.out.println(a[i]);
+	}
+>>>>>>> branch 'master' of https://github.com/vsrh86/CoreJava.git
 }
 }
