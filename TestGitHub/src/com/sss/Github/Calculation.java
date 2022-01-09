@@ -9,6 +9,5 @@ public class Calculation {
         System.out.println("Substraction is===" + (a - b));
         System.out.println("Mutilplication is===" + (a * b));
         System.out.println("Division is===" + (b / a));
-
     }
 }
