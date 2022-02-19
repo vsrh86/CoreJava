@@ -2,9 +2,8 @@ package com.sss.Github;
 
 public class Repeatednumberofword {
 	public static void main(String[] args) {
-		String s="sureshvuppatala";
+		String s="sureshv";
 		int count=0;
-		
 	char a[]=new char[s.length()];
 
 		for(int i=0;i<s.length();i++){
