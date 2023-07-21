@@ -14,7 +14,7 @@ public class ArrayExamples {
         System.out.println("peakElement=" + peakElement);
         //Find the sum of integers
         double sumofvalues = sumofvalues(arr1);
-        System.out.println("sumofvalues=" + sumofvalues);
+        System.out.println("sumofvalues==" + sumofvalues);
     }
 
     public static int findPeakElement(Integer[] arr) {
