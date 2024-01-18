@@ -19,7 +19,8 @@ public class DuplicateWordOccurrences {
     }
 
     private static Map<String, Long> findsortoccurrences(String inputstring) {
-        String[] words = inputstring.replaceAll("[,.]", "").toLowerCase().split(" ");
+
+        String[] words = inputstring.trim().replaceAll("[,.]", " ").toLowerCase().split(" ");
         return Arrays.stream(words).collect(Collectors.groupingBy(i -> i, Collectors.counting()))
                 .entrySet().stream().sorted(Map.Entry.comparingByKey())
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (oldValue, newValue) -> oldValue, LinkedHashMap::new));
